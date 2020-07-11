@@ -6,7 +6,7 @@ public class Function2 {
 
 	public static void main(String[] args) {
 		
-	//Method overloading is where 2 or more function with different 
+	//Method overloading is where 2 or more function with different parameters with same name.
 		
 		
 		

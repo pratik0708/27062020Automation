@@ -4,8 +4,7 @@ public class CallVariables2 {
 
 	public static void main(String[] args) {
 		
-        System.out.println(Variables.name);
-		
+        
 		Variables.name="Pratik";
 		
 		Variables ref= new Variables();

@@ -4,7 +4,7 @@ public class MultiDimensionalArray {
 
 	public static void main(String[] args) {
 
-		String[][] data = new String[10][7];
+		String[][] data = new String[10][2];
 
 		// Row 1
 		data[0][0] = "User1";

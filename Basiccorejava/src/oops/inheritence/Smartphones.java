@@ -1,10 +1,16 @@
 package oops.inheritence;
 
-public class Smartphones {
+public class Smartphones extends Mobile {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public void videoCall() {
+
+		System.out.println("Video calling from Smartphone");
 
 	}
 
+	public void calling() 
+	{
+		System.out.println("Calling from Smartphone");
+
+	}
 }
