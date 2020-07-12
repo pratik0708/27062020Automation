@@ -10,6 +10,7 @@ public abstract class MSWord {
 	public abstract void delete();
 	public abstract void save();
 	
+	//Sprint3
 	public abstract void edit();
 	public abstract void layout();
 	
