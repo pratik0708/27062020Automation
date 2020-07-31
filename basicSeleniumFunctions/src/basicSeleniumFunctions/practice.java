@@ -20,7 +20,7 @@ public class practice {
 		//dr.close(); // close only the window which is open, close only the window which are open frm the code.
 		
 		
-		//dr.quit(); // coses all the window which are open
+		//dr.quit(); // close all the window which are open
 		
 		//dr.findElement(By.id("nav_automobile")).click();
 		WebElement ele=dr.findElement(By.id("nav_automobile"));
