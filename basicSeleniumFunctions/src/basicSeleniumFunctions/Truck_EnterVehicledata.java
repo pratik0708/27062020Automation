@@ -41,7 +41,7 @@ System.setProperty("webdriver.chrome.driver","D:\\Drivers\\chromedriver.exe");
 		dr.findElement(By.id("birthdate")).sendKeys("07/08/1991");
 				
 		
-		dr.findElement(By.xpath("//*[text()='female']")).click();
+		dr.findElement(By.className("ideal-radiocheck-label")).click();
         dr.findElement(By.id("streetaddress")).sendKeys("Street Number 16");
 		
 		WebElement countryDropDown=dr.findElement(By.name("Country"));

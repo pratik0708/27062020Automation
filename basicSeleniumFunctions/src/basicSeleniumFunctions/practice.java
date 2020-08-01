@@ -17,7 +17,7 @@ public class practice {
 		
 		dr.get("http://sampleapp.tricentis.com/101/");
 		
-		//dr.close(); // close only the window which is open, close only the window which are open frm the code.
+		//dr.close(); // close only the window which is open, close only the window which are open from the code.
 		
 		
 		//dr.quit(); // close all the window which are open

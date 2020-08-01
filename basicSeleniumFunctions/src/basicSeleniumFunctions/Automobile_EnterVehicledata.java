@@ -43,9 +43,15 @@ public class Automobile_EnterVehicledata {
 		dr.findElement(By.id("lastname")).sendKeys("Rupnar");
 		dr.findElement(By.id("birthdate")).sendKeys("07/08/1991");
 				
+		WebElement radio=dr.findElement(By.xpath("//label[text()='Female']/span"));
+		boolean isSelected=radio.isSelected();
+		System.out.println(isSelected);
+		radio.click();
+		isSelected=radio.isSelected();
+		System.out.println(isSelected);
 		
-		dr.findElement(By.xpath("//*[text()='Female']")).click();
 		dr.findElement(By.id("streetaddress")).sendKeys("Street Number 33");
+		
 		
 		WebElement countryDropDown=dr.findElement(By.name("Country"));
 		Select cou= new Select(countryDropDown);
@@ -57,7 +63,12 @@ public class Automobile_EnterVehicledata {
 		Select occ= new Select(occupationDropDown);
 		occ.selectByIndex(1);
 		
-		dr.findElement(By.className("ideal-check")).click();
+		WebElement check=dr.findElement(By.xpath("//label[contains(.,'Bungee')]/span"));
+		boolean isSelected1=check.isSelected();
+		System.out.println(isSelected);
+		radio.click();
+		
+		//dr.findElement(By.className("ideal-check")).click();
 		dr.findElement(By.id("website")).sendKeys("Http://abc.com");	
 		dr.findElement(By.id("nextenterproductdata")).click();
 		dr.findElement(By.id("startdate")).sendKeys("09/26/2020");
