@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18080" started-at="2020-08-15T07:01:24Z" finished-at="2020-08-15T07:01:42Z">
+  <suite name="Suite" duration-ms="24451" started-at="2020-08-15T11:12:36Z" finished-at="2020-08-15T11:13:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18080" started-at="2020-08-15T07:01:24Z" finished-at="2020-08-15T07:01:42Z">
+    <test name="Test" duration-ms="24451" started-at="2020-08-15T11:12:36Z" finished-at="2020-08-15T11:13:00Z">
       <class name="samplePackage.Testing">
-        <test-method status="PASS" signature="test1()[pri:0, instance:samplePackage.Testing@2b546384]" name="test1" duration-ms="29" started-at="2020-08-15T12:31:24Z" finished-at="2020-08-15T12:31:24Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:samplePackage.Testing@2b546384]" name="test1" duration-ms="12" started-at="2020-08-15T16:42:36Z" finished-at="2020-08-15T16:42:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:samplePackage.Testing@2b546384]" name="test2" duration-ms="17940" started-at="2020-08-15T12:31:24Z" finished-at="2020-08-15T12:31:42Z">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:samplePackage.Testing@2b546384]" name="test2" duration-ms="24377" started-at="2020-08-15T16:42:36Z" finished-at="2020-08-15T16:43:00Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate an element using xpath=//*[@id="main-container"]/div/div/div/div/div[1]/div/pFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'DESKTOP-I83D6L5', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'Driver info: driver.version: RemoteWebDriver]]>
@@ -24,6 +24,6 @@
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- samplePackage.Testing -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
