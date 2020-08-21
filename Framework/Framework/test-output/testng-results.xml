@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="66033" started-at="2020-08-14T20:05:25 IST" finished-at="2020-08-14T20:06:31 IST">
+  <suite name="Suite" duration-ms="24365" started-at="2020-08-21T14:29:11 IST" finished-at="2020-08-21T14:29:35 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="66033" started-at="2020-08-14T20:05:25 IST" finished-at="2020-08-14T20:06:31 IST">
-      <class name="testScripts.HomePage.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="initialize" is-config="true" duration-ms="41" started-at="2020-08-14T20:05:25 IST" finished-at="2020-08-14T20:05:25 IST">
+    <test name="Test" duration-ms="24365" started-at="2020-08-21T14:29:11 IST" finished-at="2020-08-21T14:29:35 IST">
+      <class name="testScripts.Camper.CamperEnterProductData">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="initialize" is-config="true" duration-ms="14" started-at="2020-08-21T14:29:11 IST" finished-at="2020-08-21T14:29:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="launchBrowser" is-config="true" duration-ms="60184" started-at="2020-08-14T20:05:25 IST" finished-at="2020-08-14T20:06:25 IST">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="launchBrowser" is-config="true" duration-ms="23498" started-at="2020-08-21T14:29:11 IST" finished-at="2020-08-21T14:29:34 IST">
           <params>
             <param index="0">
               <value>
@@ -22,39 +22,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyIsAutomobileVisible()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsAutomobileVisible" duration-ms="49" started-at="2020-08-14T20:06:25 IST" finished-at="2020-08-14T20:06:25 IST">
+        <test-method status="PASS" signature="CamperStartDate()[pri:0, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="CamperStartDate" duration-ms="404" started-at="2020-08-21T14:29:34 IST" finished-at="2020-08-21T14:29:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIsAutomobileVisible -->
-        <test-method status="PASS" signature="verifyIsCamperVisible()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsCamperVisible" duration-ms="19" started-at="2020-08-14T20:06:25 IST" finished-at="2020-08-14T20:06:25 IST">
+        </test-method> <!-- CamperStartDate -->
+        <test-method status="PASS" signature="CamperInsuranceSum()[pri:1, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="CamperInsuranceSum" duration-ms="169" started-at="2020-08-21T14:29:35 IST" finished-at="2020-08-21T14:29:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIsCamperVisible -->
-        <test-method status="PASS" signature="verifyIsMotorCycleVisible()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsMotorCycleVisible" duration-ms="23" started-at="2020-08-14T20:06:25 IST" finished-at="2020-08-14T20:06:25 IST">
+        </test-method> <!-- CamperInsuranceSum -->
+        <test-method status="PASS" signature="CamperDamageInsurance()[pri:2, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="CamperDamageInsurance" duration-ms="141" started-at="2020-08-21T14:29:35 IST" finished-at="2020-08-21T14:29:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIsMotorCycleVisible -->
-        <test-method status="PASS" signature="verifyIsTruckVisible()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsTruckVisible" duration-ms="27" started-at="2020-08-14T20:06:25 IST" finished-at="2020-08-14T20:06:25 IST">
+        </test-method> <!-- CamperDamageInsurance -->
+        <test-method status="PASS" signature="CamperOptionalProduct()[pri:3, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="CamperOptionalProduct" duration-ms="99" started-at="2020-08-21T14:29:35 IST" finished-at="2020-08-21T14:29:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyIsTruckVisible -->
-        <test-method status="PASS" signature="verifyIsAutobileClickable()[pri:1, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsAutobileClickable" duration-ms="3543" started-at="2020-08-14T20:06:25 IST" finished-at="2020-08-14T20:06:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsAutobileClickable -->
-        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:2, instance:testScripts.HomePage.HomePage@9660f4e]" name="verifyIsTruckClickable" duration-ms="1381" started-at="2020-08-14T20:06:29 IST" finished-at="2020-08-14T20:06:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTruckClickable -->
-        <test-method status="PASS" signature="quitBrower()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="quitBrower" is-config="true" duration-ms="758" started-at="2020-08-14T20:06:30 IST" finished-at="2020-08-14T20:06:31 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrower -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.HomePage.HomePage@9660f4e]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-14T20:06:31 IST" finished-at="2020-08-14T20:06:31 IST">
+        </test-method> <!-- CamperOptionalProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Camper.CamperEnterProductData@5e853265]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-21T14:29:35 IST" finished-at="2020-08-21T14:29:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.HomePage.HomePage -->
+      </class> <!-- testScripts.Camper.CamperEnterProductData -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

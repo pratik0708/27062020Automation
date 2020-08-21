@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testScripts.HomePage.HomePage">
+      <class name="testScripts.Camper.CamperEnterProductData">
         <methods>
-          <include name="isAutobileClickable"/>
-          <include name="isMotorCycleVisible"/>
           <include name="initialize"/>
-          <include name="isAutomobileVisible"/>
-          <include name="isTruckVisible"/>
           <include name="tearDown"/>
-          <include name="quitBrower"/>
+          <include name="CamperInsuranceSum"/>
+          <include name="CamperOptionalProduct"/>
           <include name="launchBrowser"/>
-          <include name="isCamperVisible"/>
         </methods>
-      </class> <!-- testScripts.HomePage.HomePage -->
+      </class> <!-- testScripts.Camper.CamperEnterProductData -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

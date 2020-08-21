@@ -20,7 +20,8 @@ public class HomePage {
 	By truck=By.id("nav_truck");
 	By motorcycle=By.id("nav_motorcycle");
 	By camper=By.id("nav_camper");
-	
+	By enterinsurantdata= By.xpath("//a[@name='Enter Insurant Data']");
+	By enterproductdata=By.id("enterproductdata");
 	
 	public boolean isAutomobileDisplayed()
 	{
@@ -40,6 +41,7 @@ public class HomePage {
 	public boolean isCamperDisplayed()
 	{
 		return lib.isElementPresent(dr, camper);	
+		
 	}
 	
 	public String getAutobileText()
@@ -75,6 +77,14 @@ public class HomePage {
 	public void clickCamper()
 	{
 		dr.findElement(camper).click();
+	}
+	public void clickCamperEnterInsurantData()
+	{
+		dr.findElement(enterinsurantdata).click();		
+	}
+	public void clickCamperEnterProductData()
+	{
+		dr.findElement(enterproductdata).click();
 	}
 	
 	public void clickMotorcycle()
